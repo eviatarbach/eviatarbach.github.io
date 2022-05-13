@@ -162,4 +162,10 @@
           </div>
           {%- endif %}
         </div>
+          <div class="altmetric col-sm-2">
+    {% if entry.doi %}
+    <div style="text-align: right;" data-badge-popover="left" data-badge-type="donut" data-doi="{{ entry.doi }}" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed"></div>
+    <span style="text-align: right;" class="__dimensions_badge_embed__" data-doi="{{ entry.doi }}" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+    {% endif %}
+  </div>
       </div>
