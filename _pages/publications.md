@@ -7,6 +7,8 @@ years: [2022, 2021, 2019, 2018]
 nav: true
 nav_order: 2
 ---
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
