@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Stanback Postdoctoral Fellow at the <a href='https://www.gps.caltech.edu/'>Division of Geological and Planetary Sciences, Caltech</a>
 
