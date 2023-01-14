@@ -69,6 +69,21 @@
   file = {/data/Zotero/storage/GGUQMDTN/Bach - 2021 - parasweep A template-based utility for generating.pdf;/data/Zotero/storage/LLKVD6S8/S2352711020303447.html}
 }
 
+@article{chattopadhyay_deep_2023,
+  title = {Deep Learning-Enhanced Ensemble-Based Data Assimilation for High-Dimensional Nonlinear Dynamical Systems},
+  author = {Chattopadhyay, Ashesh and Nabizadeh, Ebrahim and Bach, Eviatar and Hassanzadeh, Pedram},
+  year = {2023},
+  month = jan,
+  journal = {Journal of Computational Physics},
+  pages = {111918},
+  issn = {0021-9991},
+  doi = {10.1016/j.jcp.2023.111918},
+  abstract = {Data assimilation (DA) is a key component of many forecasting models in science and engineering. DA allows one to estimate better initial conditions using an imperfect dynamical model of the system and noisy/sparse observations available from the system. Ensemble Kalman filter (EnKF) is a DA algorithm that is widely used in applications involving high-dimensional nonlinear dynamical systems. However, EnKF requires evolving large ensembles of forecasts using the dynamical model of the system. This often becomes computationally intractable, especially when the number of states of the system is very large, e.g., for weather prediction. With small ensembles, the estimated background error covariance matrix in the EnKF algorithm suffers from sampling error, leading to an erroneous estimate of the analysis state (initial condition for the next forecast cycle). In this work, we propose hybrid ensemble Kalman filter (H-EnKF), which is applied to a two-layer quasi-geostrophic turbulent flow as a test case. This framework utilizes a pre-trained deep learning-based data-driven surrogate that inexpensively generates and evolves a large data-driven ensemble of the states to accurately compute the background error covariance matrix with smaller sampling errors. The H-EnKF framework outperforms EnKF with only dynamical model or only the data-driven surrogate, and estimates a better initial condition without the need for any ad-hoc localization strategies. H-EnKF can be extended to any ensemble-based DA algorithm, e.g., particle filters, which are currently too expensive to use for high-dimensional systems.},
+  langid = {english},
+  keywords = {Data assimilation,deep learning,ensemble Kalman filter,forecasting,high-dimensional systems,turbulence},
+  file = {/home/eviatar/Zotero/storage/8HGTPVXU/Chattopadhyay et al. - 2023 - Deep learning-enhanced ensemble-based data assimil.pdf;/home/eviatar/Zotero/storage/LW45AX4V/S002199912300013X.html}
+}
+
 @article{chattopadhyay_towards_2022,
   title = {Towards physics-inspired data-driven weather forecasting: integrating data assimilation with a deep spatial-transformer-based {{U-NET}} in a case study with {{ERA5}}},
   shorttitle = {Towards physics-inspired data-driven weather forecasting},
@@ -88,7 +103,7 @@
 }
 
 @article{dunbar_ensemblekalmanprocessesjl_2022,
-  title = {{{EnsembleKalmanProcesses}}.Jl: {{Derivative-free}} Ensemble-Based Model Calibration},
+  title = {{{EnsembleKalmanProcesses}}.jl: {{Derivative-free}} Ensemble-Based Model Calibration},
   shorttitle = {{{EnsembleKalmanProcesses}}.Jl},
   author = {a Dunbar, Oliver R. and {Lopez-Gomez}, Ignacio and {Garbuno-I{\~n}igo}, Alfredo and Huang, Daniel Zhengyu and Bach, Eviatar and Wu, Jin-long},
   year = {2022},
