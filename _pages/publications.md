@@ -10,8 +10,10 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications">
 
+{% if bibliography -f preprints %}
 <h2 class="year">Preprints</h2>
 {% bibliography -f preprints %}
+{% endif %}
 
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
