@@ -19,4 +19,6 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Stanback Postdoctoral Fellow in Global Environmental Science in the [CliMA group](https://clima.caltech.edu/) at Caltech, under the supervision of [Tapio Schneider](https://climate-dynamics.org/people/tapio-schneider/) and [Andrew Stuart](http://stuart.caltech.edu/).
 
-My research interests include predictability, climate dynamics, data assimilation, and nonlinear dynamics, and more broadly in climate justice.
+Starting in July 2024, I will be a Lecturer (Assistant Professor) in Mathematics of Environmental Data Science at the University of Reading, in the departments of [Meteorology](https://www.reading.ac.uk/meteorology/) and [Mathematics and Statistics](https://www.reading.ac.uk/maths-and-stats/).
+
+My research interests include data assimilation, predictability, machine learning, climate dynamics, and nonlinear dynamics, and more broadly in climate justice.
