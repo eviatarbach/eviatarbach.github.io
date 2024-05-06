@@ -8,6 +8,8 @@ nav: true
 nav_order: 2
 ---
 <!-- _pages/publications.md -->
+See also my <a href="https://scholar.google.com/citations?user=qeCEIpwAAAAJ&hl=en">Google Scholar</a>. Frequent collaborators have their websites linked in the author lists below.
+
 <div class="publications">
 
 <h2 class="year">Preprints</h2>
