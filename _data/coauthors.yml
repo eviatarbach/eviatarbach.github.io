@@ -29,3 +29,11 @@
 "Stuart":
   - firstname: ["Andrew", "A."]
     url: http://stuart.caltech.edu/
+
+"Dubar":
+  - firstname: ["Oliver", "O.", "Oliver R."]
+    url: https://odunbar.wordpress.com/
+
+"Krishnamurthy":
+  - firstname: ["V."]
+    url: http://www.m.monsoondata.org/people/krishnamurthy.html
