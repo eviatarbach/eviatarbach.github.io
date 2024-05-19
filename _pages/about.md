@@ -22,3 +22,5 @@ I am a Stanback Postdoctoral Fellow in Global Environmental Science in the [CliM
 Starting in July 2024, I will be a Lecturer (Assistant Professor) in Mathematics of Environmental Data Science at the University of Reading, in the departments of [Meteorology](https://www.reading.ac.uk/meteorology/) and [Mathematics and Statistics](https://www.reading.ac.uk/maths-and-stats/).
 
 My research interests include data assimilation, predictability, machine learning, climate dynamics, and nonlinear dynamics, and more broadly in climate justice.
+
+You can reach me by email at <a href="mailto:eviatarbach@protonmail.com">eviatarbach@protonmail.com</a>.
