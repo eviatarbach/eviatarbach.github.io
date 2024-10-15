@@ -3,7 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 description: My areas of research
-nav: true
+nav: false
 nav_order: 1
 display_categories:
 horizontal: false
