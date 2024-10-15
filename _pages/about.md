@@ -21,4 +21,4 @@ I am a Lecturer (Assistant Professor) in Mathematics of Environmental Data Scien
 
 My research interests include data assimilation, predictability, machine learning, climate dynamics, and nonlinear dynamics, and more broadly in climate justice.
 
-You can reach me by email at <a href="mailto:eviatarbach@protonmail.com">eviatarbach@protonmail.com</a>.
+**E-mail**: [eviatarbach@protonmail.com](mailto:eviatarbach@protonmail.com)</br>**Follow**: <a href="https://scholar.google.com/citations?user=qeCEIpwAAAAJ&hl=en" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class=" ai ai-google-scholar"></i> Google Scholar </a> <a href="https://www.linkedin.com/in/eviatarbach/" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn </a>
