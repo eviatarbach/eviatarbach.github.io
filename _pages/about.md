@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Lecturer (Assistant Professor) in Mathematics of Environmental Data Science at the University of Reading, in the departments of [Meteorology](https://www.reading.ac.uk/meteorology/) and [Mathematics and Statistics](https://www.reading.ac.uk/maths-and-stats/).
 
-My research interests include data assimilation, predictability, machine learning, climate dynamics, and nonlinear dynamics, and more broadly in climate justice.
+My research interests include data assimilation, predictability, machine learning, climate dynamics, nonlinear dynamics, and inverse problems. I am also interested more broadly in climate justice.
 
 **E-mail**: [eviatarbach@protonmail.com](mailto:eviatarbach@protonmail.com)
 
