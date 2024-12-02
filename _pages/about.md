@@ -17,10 +17,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Lecturer (Assistant Professor) in Mathematics of Environmental Data Science at the University of Reading, in the departments of [Meteorology](https://www.reading.ac.uk/meteorology/) and [Mathematics and Statistics](https://www.reading.ac.uk/maths-and-stats/).
+I am a Lecturer (Assistant Professor) in Mathematics of Environmental Data Science at the University of Reading, in the departments of [Meteorology](https://www.reading.ac.uk/meteorology/) and [Mathematics and Statistics](https://www.reading.ac.uk/maths-and-stats/). I am a part of the [Data Assimilation Research Centre](https://research.reading.ac.uk/met-darc/) and the [Centre for Mathematics of Planet Earth](https://research.reading.ac.uk/cmpe/).
 
 My research interests include data assimilation, predictability, machine learning, climate dynamics, nonlinear dynamics, and inverse problems. I am also interested more broadly in climate justice.
 
-**E-mail**: [eviatarbach@protonmail.com](mailto:eviatarbach@protonmail.com)
+**E-mail**: [e.bach@reading.ac.uk](mailto:e.bach@reading.ac.uk) or [eviatarbach@protonmail.com](mailto:eviatarbach@protonmail.com)
 
 **Follow**: <a href="https://scholar.google.com/citations?user=qeCEIpwAAAAJ&hl=en" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class=" ai ai-google-scholar"></i> Google Scholar </a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/eviatarbach/" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn </a>
