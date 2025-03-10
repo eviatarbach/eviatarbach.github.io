@@ -339,7 +339,7 @@ scholar:
   sort_by: year,month
   order: descending
   query: "@*"
-  group_by: year
+  group_by:
   group_order: descending
 
 # Display different badges withs stats for your publications
