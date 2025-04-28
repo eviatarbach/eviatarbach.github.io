@@ -60,3 +60,18 @@
   archiveprefix = {arXiv},
   abstract = {Ensemble Kalman inversion (EKI) is a derivative-free, particle-based optimization method for solving inverse problems. It can be shown that EKI approximates a gradient flow, which allows the application of methods for accelerating gradient descent. Here, we show that Nesterov acceleration is effective in speeding up the reduction of the EKI cost function on a variety of inverse problems. We also implement Nesterov acceleration for two EKI variants, unscented Kalman inversion and ensemble transform Kalman inversion. Our specific implementation takes the form of a particle-level nudge that is demonstrably simple to couple in a black-box fashion with any existing EKI variant algorithms, comes with no additional computational expense, and with no additional tuning hyperparameters. This work shows a pathway for future research to translate advances in gradient-based optimization into advances in gradient-free Kalman optimization.}
 }
+
+@misc{bachLearningEnhancedEnsemble2025,
+  title = {Learning {{Enhanced Ensemble Filters}}},
+  author = {Bach, Eviatar and Baptista, Ricardo and Calvello, Edoardo and Chen, Bohan and Stuart, Andrew},
+  year = {2025},
+  month = apr,
+  number = {arXiv:2504.17836},
+  eprint = {2504.17836},
+  primaryclass = {stat},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2504.17836},
+  urldate = {2025-04-28},
+  abstract = {The filtering distribution in hidden Markov models evolves according to the law of a mean-field model in state--observation space. The ensemble Kalman filter (EnKF) approximates this mean-field model with an ensemble of interacting particles, employing a Gaussian ansatz for the joint distribution of the state and observation at each observation time. These methods are robust, but the Gaussian ansatz limits accuracy. This shortcoming is addressed by approximating the mean-field evolution using a novel form of neural operator taking probability distributions as input: a Measure Neural Mapping (MNM). A MNM is used to design a novel approach to filtering, the MNM-enhanced ensemble filter (MNMEF), which is defined in both the mean-fieldlimit and for interacting ensemble particle approximations. The ensemble approach uses empirical measures as input to the MNM and is implemented using the set transformer, which is invariant to ensemble permutation and allows for different ensemble sizes. The derivation of methods from a mean-field formulation allows a single parameterization of the algorithm to be deployed at different ensemble sizes. In practice fine-tuning of a small number of parameters, for specific ensemble sizes, further enhances the accuracy of the scheme. The promise of the approach is demonstrated by its superior root-mean-square-error performance relative to leading methods in filtering the Lorenz 96 and Kuramoto-Sivashinsky models.},
+  archiveprefix = {arXiv},
+}
