@@ -260,3 +260,15 @@
   langid = {english},
   abstract = {We synthesize knowledge from numerical weather prediction, inverse theory, and statistics to address the problem of estimating a high-dimensional covariance matrix from a small number of samples. This problem is fundamental in statistics, machine learning/artificial intelligence, and in modern Earth science. We create several new adaptive methods for high-dimensional covariance estimation, but one method, which we call Noise-Informed Covariance Estimation (NICE), stands out because it has three important properties: (a) NICE is conceptually simple and computationally efficient; (b) NICE guarantees symmetric positive semi-definite covariance estimates; and (c) NICE is largely tuning-free. We illustrate the use of NICE on a large set of Earth science–inspired numerical examples, including cycling data assimilation, inversion of geophysical field data, and training of feed-forward neural networks with time-averaged data from a chaotic dynamical system. Our theory, heuristics and numerical tests suggest that NICE may indeed be a viable option for high-dimensional covariance estimation in many Earth science problems.}
 }
+
+@article{vernonNesterovAccelerationEnsemble2025a,
+  title = {Nesterov {{Acceleration}} for {{Ensemble Kalman Inversion}} and {{Variants}}},
+  author = {Vernon, Sydney and Bach*, Eviatar and Dunbar, Oliver R A},
+  year = {2025},
+  month = may,
+  journal = {Journal of Computational Physics},
+  pages = {114063},
+  issn = {0021-9991},
+  doi = {10.1016/j.jcp.2025.114063},
+  abstract = {Ensemble Kalman inversion (EKI) is a derivative-free, particle-based optimization method for solving inverse problems. It can be shown that EKI approximates a gradient flow, which allows the application of methods for accelerating gradient descent. Here, we show that Nesterov acceleration is effective in speeding up the reduction of the EKI cost function on a variety of inverse problems. We also implement Nesterov acceleration for two EKI variants, unscented Kalman inversion and ensemble transform Kalman inversion. Our specific implementation takes the form of a particle-level nudge that is demonstrably simple to couple in a black-box fashion with any existing EKI variant algorithms, comes with no additional computational expense, and with no additional tuning hyperparameters. This work shows a pathway for future research to translate advances in gradient-based optimization into advances in gradient-free Kalman optimization.},
+}
