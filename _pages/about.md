@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: eviatar_bach_2025.jpg
+  image: eviatar_bach_2025_2.jpg
 #  address: >
 #    <p>555 your office number</p>
 #    <p>123 your address street</p>
