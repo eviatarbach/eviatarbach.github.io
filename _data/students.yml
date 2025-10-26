@@ -1,5 +1,5 @@
 - name: Maori Inagawa
-  image:
+  image: img_maori_inagawa-Custom.jpg
   altimage:
   position: PhD student
   email:
@@ -17,7 +17,7 @@
   description: Advancing the Frontiers of Earth System Prediction (AFESP) PhD student, co-advised by Sarah Dance, Amos Lawless, Massimo Bonavita (ECMWF), and Chris Thomas (Met Office).
 
 - name: Cadan Plasa
-  image:
+  image: Cadan-Plasa-UoR-Custom.jpg
   altimage: 
   position: PhD student
   email:
