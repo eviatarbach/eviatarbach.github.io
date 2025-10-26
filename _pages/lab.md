@@ -47,11 +47,15 @@ We are the Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimi
   <h2 id="students">Students</h2>
   {% for person in site.data.students %}
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-    <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
+    {% if person.image}
+        <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
+    {% endif %}
     <div>
         <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
         {{person.position}} <br>
-        <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
+        {% if person.email %}
+            <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
+        {% endif %}
         {% if person.website %}
           <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank">{{person.website}}</a> <br>
         {% endif %}
