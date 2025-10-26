@@ -7,7 +7,7 @@ nav_order: 3
 description: Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimilation (PANDDA) Lab
 ---
 
-<img src="{{ site.baseurl }}/assets/img/pandda_logo.svg" style="(max-width: {{site.max_width | minus: 30}})" alt="PANDDA logo" />
+<img src="{{ site.baseurl }}/assets/img/pandda_logo.svg" style="max-width: {{site.max_width | minus: 30}}px" alt="PANDDA logo" />
 
 We are the Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimilation (PANDDA) Lab at the University of Reading.
 
@@ -33,7 +33,7 @@ We are the Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimi
           <i class="fab fa-github"></i> <a href= "https://github.com/{{person.github}}" target="_blank"> {{person.github}} </a> <br>
         {% endif %}
         {% if person.scholar %}
-          <i class="ai ai-google-scholar"></i> <a href= "http://scholar.google.com/citations?user={{person.scholar}}" target="_blank"> Scholar Citations </a> <br>
+          <i class="ai ai-google-scholar"></i> <a href= "http://scholar.google.com/citations?user={{person.scholar}}" target="_blank">Google Scholar</a> <br>
         {% endif %}
         {% if person.orcid %}
           <i class="ai ai-orcid"></i> <a href="http://{{person.orcid}}" target="_blank"> {{person.orcid}}</a> <br>
@@ -65,7 +65,7 @@ We are the Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimi
           <i class="fab fa-github"></i> <a href= "https://github.com/{{person.github}}" target="_blank"> {{person.github}} </a> <br>
         {% endif %}
         {% if person.scholar %}
-          <i class="ai ai-google-scholar"></i> <a href= "http://scholar.google.com/citations?user={{person.scholar}}" target="_blank"> Scholar Citations </a> <br>
+          <i class="ai ai-google-scholar"></i> <a href= "http://scholar.google.com/citations?user={{person.scholar}}" target="_blank">Google Scholar</a> <br>
         {% endif %}
         {% if person.orcid %}
           <i class="ai ai-orcid"></i> <a href="http://{{person.orcid}}" target="_blank"> {{person.orcid}}</a> <br>
