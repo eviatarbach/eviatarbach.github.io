@@ -14,7 +14,10 @@ We are the Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimi
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     {% if person.image %}
-        <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
+        <div class="profile float-right">
+        {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+        {% include figure.liquid loading="eager" path="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid z-depth-1 rounded" sizes=sizes alt="Photo of {{person.name}}" %}
+        </div>
     {% endif %}
     <div>
         <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
@@ -48,7 +51,10 @@ We are the Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimi
   {% for person in site.data.students %}
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     {% if person.image %}
-        <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
+        <div class="profile float-right">
+        {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+        {% include figure.liquid loading="eager" path="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid z-depth-1 rounded" sizes=sizes alt="Photo of {{person.name}}" %}
+        </div>
     {% endif %}
     <div>
         <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
