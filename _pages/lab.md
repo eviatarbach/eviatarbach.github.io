@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 permalink: /lab/
 title: PANDDA Lab
 description: Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimilation (PANDDA) Lab
@@ -77,3 +77,5 @@ We are the Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimi
 <hr>
   {% endfor %}
 {% endif %}
+
+Logo designed by <a href="https://melissagoon.dev/">Melissa Goon</a>.
