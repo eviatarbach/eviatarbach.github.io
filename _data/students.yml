@@ -1,3 +1,12 @@
+- name: Maori Inagawa
+  image:
+  altimage:
+  position: PhD student
+  email:
+  website:
+  scholar:
+  description: Mathematics for Our Future Climate (MFC) PhD student, co-advised by Jochen Bröcker and Andrew Duncan (Imperial).
+
 - name: Jesse Gilbert
   image:
   altimage: 
@@ -6,3 +15,12 @@
   website: 
   scholar:
   description: Advancing the Frontiers of Earth System Prediction (AFESP) PhD student, co-advised by Sarah Dance, Amos Lawless, Massimo Bonavita (ECMWF), and Chris Thomas (Met Office).
+
+- name: Cadan Plasa
+  image:
+  altimage: 
+  position: PhD student
+  email:
+  website: 
+  scholar:
+  description: Mathematics for Our Future Climate (MFC) PhD student, primary advisor Jochen Bröcker.
