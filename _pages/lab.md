@@ -15,8 +15,7 @@ We are the Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimi
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     {% if person.image %}
         <div class="profile float-right">
-        {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-        {% include figure.liquid loading="eager" path="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid z-depth-1 rounded" sizes=sizes alt="Photo of {{person.name}}" %}
+        {% include figure.liquid loading="eager" path="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid z-depth-1 rounded" sizes="(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw" alt="Photo of {{person.name}}" %}
         </div>
     {% endif %}
     <div>
