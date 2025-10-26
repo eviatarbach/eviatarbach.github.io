@@ -5,6 +5,10 @@ title: PANDDA Lab
 description: Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimilation (PANDDA) Lab
 ---
 
+<img src="pandda_logo.svg" alt="Logo of PANDDA Lab">
+
+We are the Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimilation (PANDDA) Lab at the University of Reading.
+
 {% for person in site.data.members %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
