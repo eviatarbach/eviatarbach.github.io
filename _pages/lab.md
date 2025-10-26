@@ -2,13 +2,15 @@
 layout: default
 permalink: /lab/
 title: PANDDA Lab
+navbar: true
 description: Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimilation (PANDDA) Lab
 ---
 
-![Image]({{ site.baseurl }}/assets/img/pandda_logo.svg)
+<img src="{{ site.baseurl }}/assets/img/pandda_logo.svg" style="(min-width: {{site.max_width}})" alt="PANDDA logo" />
 
 We are the Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimilation (PANDDA) Lab at the University of Reading.
 
+<hr>
 <div class="post">
   <article>
 {% for person in site.data.members %}
