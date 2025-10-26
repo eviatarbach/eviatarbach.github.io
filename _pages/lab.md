@@ -2,7 +2,8 @@
 layout: default
 permalink: /lab/
 title: PANDDA Lab
-navbar: true
+nav: true
+nav_order: 3
 description: Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimilation (PANDDA) Lab
 ---
 
