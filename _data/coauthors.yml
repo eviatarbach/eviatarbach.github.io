@@ -41,3 +41,11 @@
 "baptista":
   - firstname: ["Ricardo", "R."]
     url: https://www.ricardobaptista.com/
+
+"bröcker":
+  - firstname: ["Jochen", "J."]
+    url: https://www.reading.ac.uk/maths-and-stats/staff/jochen-broecker
+
+"schneider:
+  - firstname: ["Tapio", "T."]
+    url: https://climate-dynamics.org/people/tapio-schneider/
