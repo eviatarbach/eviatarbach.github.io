@@ -41,11 +41,11 @@ We are the Predictability of the Atmosphere, Nonlinear Dynamics, and Data Assimi
 
         <p class="text-justify">{{person.description | markdownify}}</p>
         </div>
-<hr>
 {% endfor %}
 
 {% if site.data.students %}
   <h2 id="students">Students</h2>
+  <hr>
   {% for person in site.data.students %}
     {% if person.image %}
         <div class="profile float-right">
