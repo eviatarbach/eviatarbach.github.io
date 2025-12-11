@@ -288,3 +288,19 @@
   abstract = {There is a history of simple forecast error growth models designed to capture the key properties of error growth in operational numerical weather prediction (NWP) models. We propose here such a scalar model that relies on the previous ones and incorporates multiplicative noise in a nonlinear stochastic differential equation (SDE). We analyze the properties of this SDE, including the shape of the error growth curve for small times and its stationary distribution, and prove well-posedness and positivity of solutions. Next, we fit this model to operational NWP error growth curves and show good agreement with both the mean and probabilistic features of the error growth. These results suggest that the dynamic--stochastic error growth model proposed herein and similar ones could play a role in many other areas of the sciences that involve prediction.},
   pdf = {Bach2025.pdf}
 }
+
+
+@article{bach_learning_2026,
+	title = {Learning enhanced ensemble filters},
+	volume = {547},
+	issn = {0021-9991},
+	url = {https://www.sciencedirect.com/science/article/pii/S0021999125008320},
+	doi = {10.1016/j.jcp.2025.114550},
+	abstract = {The filtering distribution in hidden Markov models evolves according to the law of a mean-field model in state–observation space. The ensemble Kalman filter (EnKF) approximates this mean-field model with an ensemble of interacting particles, employing a Gaussian ansatz for the joint distribution of the state and observation at each observation time. These methods are robust, but the Gaussian ansatz limits accuracy. Here this shortcoming is addressed by using machine learning to map the joint predicted state and observation to the updated state estimate. The derivation of methods from a mean field formulation of the true filtering distribution suggests a single parametrization of the algorithm that can be deployed at different ensemble sizes. And we use a mean field formulation of the ensemble Kalman filter as an inductive bias for our architecture. To develop this perspective, in which the mean-field limit of the algorithm and finite interacting ensemble particle approximations share a common set of parameters, a novel form of neural operator is introduced, taking probability distributions as input: a measure neural mapping (MNM). A MNM is used to design a novel approach to filtering, the MNM-enhanced ensemble filter (MNMEF), which is defined in both the mean-field limit and for interacting ensemble particle approximations. The ensemble approach uses empirical measures as input to the MNM and is implemented using the set transformer, which is invariant to ensemble permutation and allows for different ensemble sizes. In practice fine-tuning of a small number of parameters, for specific ensemble sizes, further enhances the accuracy of the scheme. The promise of the approach is demonstrated by its superior root-mean-square-error performance relative to leading methods in filtering the Lorenz ‘96 and Kuramoto-Sivashinsky models.},
+	urldate = {2025-12-11},
+	journal = {Journal of Computational Physics},
+	author = {Bach, Eviatar and Baptista, Ricardo and Calvello, Edoardo and Chen, Bohan and Stuart, Andrew},
+	month = feb,
+	year = {2026},
+	pages = {114550},
+}
