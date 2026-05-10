@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:
+subtitle: Pronouns: she/her
 
 profile:
   align: right
