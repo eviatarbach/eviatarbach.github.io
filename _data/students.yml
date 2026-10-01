@@ -1,11 +1,11 @@
-- name: Maori Inagawa
-  image: img_maori_inagawa-Custom.jpg
+- name: Charlotte Gambardella
+  image:
   altimage:
   position: PhD student
   email:
   website:
   scholar:
-  description: Mathematics for Our Future Climate (MFC) PhD student, co-advised by Jochen Bröcker and Andrew Duncan (Imperial).
+  description: Mathematics for Our Future Climate (MFC) PhD student, primary supervisor Jeroen Wouters, co-supervised with Laura Baker, Nick Dunstone (Met Office), and Francesco Ragone (Leicester).
 
 - name: Jesse Gilbert
   image: jesse.jpg
@@ -14,7 +14,16 @@
   email:
   website: 
   scholar:
-  description: Advancing the Frontiers of Earth System Prediction (AFESP) PhD student, co-advised by Sarah Dance, Amos Lawless, Massimo Bonavita (ECMWF), and Chris Thomas (Met Office).
+  description: Advancing the Frontiers of Earth System Prediction (AFESP) PhD student, co-supervised by Sarah Dance, Amos Lawless, Massimo Bonavita (ECMWF), and Chris Thomas (Met Office).
+
+- name: Maori Inagawa
+  image: img_maori_inagawa-Custom.jpg
+  altimage:
+  position: PhD student
+  email:
+  website:
+  scholar:
+  description: Mathematics for Our Future Climate (MFC) PhD student, co-supervised by Jochen Bröcker and Andrew Duncan (Imperial).
 
 - name: Cadan Plasa
   image: Cadan-Plasa-UoR-Custom.jpg
@@ -23,4 +32,4 @@
   email:
   website: 
   scholar:
-  description: Mathematics for Our Future Climate (MFC) PhD student, primary advisor Jochen Bröcker.
+  description: Mathematics for Our Future Climate (MFC) PhD student, primary supervisor Jochen Bröcker.
