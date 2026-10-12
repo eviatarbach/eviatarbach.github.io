@@ -149,16 +149,16 @@
 {% if entry.type == 'article' %}
   {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
 {% elsif entry.type == 'book' %}
-  {% capture entrytype %}
-    {% if entry.publisher %}, {{ entry.publisher }}{% endif %}
-  {% endcapture %}
+  {%- capture entrytype -%}
+    {%- if entry.publisher -%}{{ entry.publisher }}{%- endif -%}
+  {%- endcapture -%}
 {% elsif entry.type == 'inbook' %}
-  {% capture entrytype %}
-    {% if entry.booktitle %}<em>In {{ entry.booktitle }}</em>{% endif %}
-    {% if entry.publisher %}{% if entry.booktitle %}, {% endif %}{{ entry.publisher }}{% endif %}
-  {% endcapture %}
+  {%- capture entrytype -%}
+    {%- if entry.booktitle -%}In <em>{{ entry.booktitle }}</em>{%- endif -%}
+    {%- if entry.publisher -%}{%- if entry.booktitle -%}, {% endif -%}{{ entry.publisher }}{%- endif -%}
+  {%- endcapture -%}
 {% elsif entry.type == 'inproceedings' %}
-  {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+  {% capture entrytype %}In <em>{{ entry.booktitle }}</em>{% endcapture %}
 {% elsif thesis contains entry.type %}
   {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
 {% else %}
