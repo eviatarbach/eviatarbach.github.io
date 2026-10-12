@@ -16,6 +16,10 @@ See also my <a href="https://scholar.google.com/citations?user=qeCEIpwAAAAJ&hl=e
 
 <div class="publications">
 
+<h2 class="year">Books</h2>
+
+{% bibliography -f books %}
+
 <h2 class="year">Preprints</h2>
 
 {% bibliography -f preprints %}
